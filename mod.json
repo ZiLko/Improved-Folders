@@ -1,0 +1,49 @@
+{
+	"geode": "4.3.1",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"id": "zilko.improved_folders",
+	"name": "Improved Folders",
+	"version": "v1.0.0",
+	"developer": "Zilko",
+	"description": "Improves Folders.",
+	"links": {
+		"source": "https://github.com/ZiLko/Improved-Folders"
+	},
+	"settings": {
+		"disable": {
+			"name": "Disable The Mod.",
+			"description": "Disables the mod.",
+			"type": "bool",
+			"default": false
+		},
+		"hide-button-id": {
+			"name": "Hide Folder ID in Button",
+			"description": "Hides the folder ID inside the folder button.",
+			"type": "bool",
+			"default": true
+		},
+		"hide-title-id": {
+			"name": "Hide Folder ID in Title",
+			"description": "Hides the folder ID in the title when a folder is selected.",
+			"type": "bool",
+			"default": true
+		},
+		"disable-notification": {
+			"name": "Hide Move Notification",
+			"description": "Hides the notification when moving a level.",
+			"type": "bool",
+			"default": false
+		},
+		"enable-moving-folders": {
+			"name": "Enable Moving Folders",
+			"description": "Enables move buttons for folders, they look kinda ugly tho.",
+			"type": "bool",
+			"default": false
+		}
+	}
+}
