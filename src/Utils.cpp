@@ -154,7 +154,7 @@ std::vector<int> Utils::getFolderPath(int folderId, bool previous, SearchType ty
 
 			ret.push_back(id);
 
-			if (id == folderId)  true;
+			if (id == folderId) return true;
 			if (fun(subFolder)) return true; 
 			
 			ret.pop_back();

@@ -4,7 +4,7 @@ class ItemCell : public cocos2d::CCNode {
 
 private:
 
-    bool init();
+    bool init() override;
 
     bool init(const Item&, ItemCellDelegate*);
 

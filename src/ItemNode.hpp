@@ -28,7 +28,7 @@ private:
     bool m_isGrid = false;
     bool m_isLevel = false;
 
-    bool init();
+    bool init() override;
 
     void onSee(CCObject*);
     void onOpen(CCObject*);

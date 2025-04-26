@@ -14,9 +14,7 @@ jobs:
         config:
         - name: Windows
           os: windows-latest
-
-        - name: macOS
-          os: macos-latest
+          build-type: RelWithDebInfo
 
         - name: Android32
           os: ubuntu-latest
@@ -35,6 +33,10 @@ jobs:
       - name: Build the mod
         uses: geode-sdk/build-geode-mod@main
         with:
+          bindings: geode-sdk/bindings
+          build-config: ${{ matrix.config.build-type || 'Release' }}
+          export-pdb: true
+          bindings-ref: main
           combine: true
           target: ${{ matrix.config.target }}
 
