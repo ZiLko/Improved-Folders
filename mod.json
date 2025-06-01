@@ -8,9 +8,15 @@
 	},
 	"id": "zilko.improved_folders",
 	"name": "Improved Folders",
-	"version": "v1.0.0",
+	"version": "v1.0.1",
 	"developer": "Zilko",
 	"description": "Improves Folders.",
+	"tags": [
+		"enhancement",
+		"interface",
+		"offline",
+		"utility"
+	],
 	"links": {
 		"source": "https://github.com/ZiLko/Improved-Folders"
 	},
